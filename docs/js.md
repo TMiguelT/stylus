@@ -25,7 +25,25 @@ We can also do the same thing in a more progressive manner:
       .render(function(err, css){
         // logic
       });
+      
+## The Options Object
 
+The `options` object is a JavaScript object with the following potential values:
+
+{
+	filename,
+	compress, 
+	firebug,
+	linenos,
+	sourcemap,
+	paths,
+	prefix,
+	dest,
+	'hoist atrules',
+	'include css',
+	'resolve url,
+	cache,
+};
 ## .set(setting, value)
 
  Apply a setting such as a `filename`, or import `paths`:
