@@ -30,6 +30,7 @@ We can also do the same thing in a more progressive manner:
 
 The `options` object is a JavaScript object with the following potential values:
 
+```javascript
 {
 	filename,
 	compress, 
@@ -44,6 +45,8 @@ The `options` object is a JavaScript object with the following potential values:
 	'resolve url,
 	cache,
 };
+```
+
 ## .set(setting, value)
 
  Apply a setting such as a `filename`, or import `paths`:
