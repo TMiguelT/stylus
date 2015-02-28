@@ -32,21 +32,21 @@ The `options` object is a JavaScript object with the following potential values:
 
 ```javascript
 {
-	filename: "",
+	filename: '',
 	compress: true, 
 	firebug: true,
 	linenos: true,
 	sourcemap: {
 		inline: true,
-		sourceRoot: "",
-		basePath: ""
+		sourceRoot: '',
+		basePath: ''
 	},
 	paths: [],
-	prefix: "",
-	dest: "",
+	prefix: '',
+	dest: '',
 	'hoist atrules': true,
 	'include css': true,
-	'resolve url: true,
+	'resolve url': true,
 	cache: true,
 };
 ```
