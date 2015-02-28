@@ -25,6 +25,31 @@ We can also do the same thing in a more progressive manner:
       .render(function(err, css){
         // logic
       });
+      
+## The Options Object
+
+The `options` object is a JavaScript object with the following potential values:
+
+```javascript
+{
+	filename: '',
+	compress: true, 
+	firebug: true,
+	linenos: true,
+	sourcemap: {
+		inline: true,
+		sourceRoot: '',
+		basePath: ''
+	},
+	paths: [],
+	prefix: '',
+	dest: '',
+	'hoist atrules': true,
+	'include css': true,
+	'resolve url': true,
+	cache: true,
+};
+```
 
 ## .set(setting, value)
 
